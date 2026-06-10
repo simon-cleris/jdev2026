@@ -27,8 +27,8 @@ function initParticles() {
     id: i,
     x: Math.random() * w,
     y: Math.random() * h,
-    vx: (Math.random() - 0.5) * 0.75,
-    vy: (Math.random() - 0.5) * 0.75,
+    vx: (Math.random() - 0.5) * 0.90,
+    vy: (Math.random() - 0.5) * 0.90,
   }))
 }
 
@@ -53,8 +53,8 @@ function pickNext() {
 }
 
 onMounted(() => {
-  W.value = containerRef.value.clientWidth
-  H.value = containerRef.value.clientHeight
+  W.value = containerRef.value.offsetWidth
+  H.value = containerRef.value.offsetHeight
   initParticles()
   tick()
   pickNext()
@@ -101,15 +101,10 @@ function particleStyle(p) {
   </div>
 </template>
 
-<style>
-.slidev-page-1 > div { height: 100%; }
-</style>
-
 <style scoped>
 .cloud-root {
-  position: relative;
-  width: 100%;
-  height: 100%;
+  position: absolute;
+  inset: 0;
   overflow: hidden;
   background: #0f172a;
 }
@@ -125,13 +120,14 @@ function particleStyle(p) {
 }
 
 .p-text {
-  font-size: 1.0rem;
+  font-size: 0.6rem;
   color: rgba(255, 255, 255, 0.15);
   transition: color 0.9s ease, opacity 0.9s ease;
   display: block;
 }
 
 .particle.active .p-text {
+  font-size: 1.0rem;
   color: #f1f5f9;
   display: block;
 }
