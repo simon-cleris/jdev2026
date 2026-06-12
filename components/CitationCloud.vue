@@ -106,7 +106,7 @@ function particleStyle(p) {
   position: absolute;
   inset: 0;
   overflow: hidden;
-  background: #0f172a;
+  background: var(--bg);
 }
 
 .particle {

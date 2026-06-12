@@ -17,13 +17,13 @@ defineProps({
         v-for="(item, i) in items"
         :key="i"
         v-click="i + clickOffset"
-        class="flex items-start gap-3 rounded-lg px-4 py-1 shrink"
-        :style="`border-left: 3px solid ${color}; background: rgba(255,255,255,0.04)`"
+        class="flex items-start gap-3 rounded-lg px-4 py-1 flex-1 min-h-0"
+        :style="`border-left: 3px solid ${color}; background: var(--card-bg)`"
       >
         <span class="font-mono text-sm font-bold" :style="`color: ${color}; min-width: 1rem`">{{ i + 1 }}</span>
         <div class="flex-1">
-          <span class="font-semibold text-sm" style="color: #f8fafc">{{ item.label }}</span>
-          <div class="text-xs mt-0.5" style="color: #94a3b8">
+          <span class="font-semibold text-sm" style="color: var(--text-brightest)">{{ item.label }}</span>
+          <div class="t-body-sm mt-0.5">
             <span :style="`color: ${color}`">→</span> {{ item.body }}
           </div>
         </div>

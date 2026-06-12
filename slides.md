@@ -1,4 +1,10 @@
 ---
+theme: default
+title: Ce que l'IA peut vraiment faire et ce que ça nous coûte
+drawings:
+  persist: false
+transition: slide-left
+mdc: true
 src: ./pages/01_cover.md
 ---
 
