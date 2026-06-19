@@ -85,13 +85,29 @@ src: ./pages/20_other_projects.md
 ---
 
 ---
-src: ./pages/21_ecologic_limit.md
+src: ./pages/21_influence_limit.md
 ---
 
 ---
-src: ./pages/22_ecologic_limit_suite.md
+src: ./pages/22_ecologic_limit.md
 ---
 
 ---
-src: ./pages/23_influence_limit.md
+src: ./pages/23_ecologic_limit.md
+---
+
+---
+src: ./pages/24_ecologic_limit.md
+---
+
+---
+src: ./pages/25_benefit_limit.md
+---
+
+---
+src: ./pages/26_benefit_limit.md
+---
+
+---
+src: ./pages/27_nothing_new.md
 ---

@@ -1,6 +1,6 @@
 ---
 layout: ecologic-traffic-slide
-label: Ecologie
+label: Limite Ecologique
 title: L'IA et son coût énergétique
 ---
 

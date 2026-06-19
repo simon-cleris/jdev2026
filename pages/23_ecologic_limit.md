@@ -1,7 +1,6 @@
 ---
 layout: ecologic-metric-slide
-label: Ecologie
-title: La bonne métrique
+label: Limite Ecologique
 ---
 
 ::Card 
@@ -19,7 +18,7 @@ title: La bonne métrique
 - Le coût unitaire va baisser, mais le **coût total va exploser**.
 - Il vaut mieux regarder la consommation moyenne par utilisateur (qui est sujette au effet rebond comme pour 3g/4g/5g)
 
-Simple mise en perspective qui n'enlève rien au bilia précédent : Le GIEC estime que **devenir végétarien réduit en moyenne au niveau mondiale les émissions de GES de 10 %**.
+Simple mise en perspective qui n'enlève rien au bilan précédent : Le GIEC estime que **devenir végétarien réduit en moyenne au niveau mondiale les émissions de GES de 10 %**.
 
 ::
 
