@@ -1,6 +1,6 @@
 ---
 layout: rule-slide
-clicks: 3
+clicks: 4
 label: Résultat
 title: Le code embarqué réalisé en 4 mois
 ---
@@ -21,10 +21,16 @@ Contexte dynamique optimisé, toutes les informations disponibles.
 
 ::
 
-::CardOutline{v-click="3"}
+::Card{v-click="3"}
 
 **Note : Les premiers scripts doivent être exécutés avec la plus grande rigueur**
 
 Template et habitudes de code soignés dès le départ ils servent de modèle pour toute la suite.
 
+::
+
+::CardOutline{v-click="4"}
+
+**Une démo ?**
+Suppression d'un driver et de son module associé.
 ::

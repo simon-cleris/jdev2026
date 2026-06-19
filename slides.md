@@ -49,9 +49,34 @@ src: ./pages/11_rule4_feedback.md
 ---
 
 ---
-src: ./pages/14_result.md
+src: ./pages/12_result.md
 ---
 
 ---
-src: ./pages/15_embedded_software_video.md
+src: ./pages/13_demo_01_prompt.md
+---
+
+---
+src: ./pages/14_demo_02_readDoc.md
+---
+
+
+---
+src: ./pages/15_demo_03_updateClaudeMD.md
+---
+
+---
+src: ./pages/16_demo_04_createDriverAndFake.md
+---
+
+---
+src: ./pages/17_demo_05_createModule.md
+---
+
+---
+src: ./pages/18_demo_06_createTest.md
+---
+
+---
+src: ./pages/19_demo_07_fin.md
 ---
