@@ -60,7 +60,6 @@ src: ./pages/13_demo_01_prompt.md
 src: ./pages/14_demo_02_readDoc.md
 ---
 
-
 ---
 src: ./pages/15_demo_03_updateClaudeMD.md
 ---
@@ -79,4 +78,20 @@ src: ./pages/18_demo_06_createTest.md
 
 ---
 src: ./pages/19_demo_07_fin.md
+---
+
+---
+src: ./pages/20_other_projects.md
+---
+
+---
+src: ./pages/21_ecologic_limit.md
+---
+
+---
+src: ./pages/22_ecologic_limit_suite.md
+---
+
+---
+src: ./pages/23_influence_limit.md
 ---
