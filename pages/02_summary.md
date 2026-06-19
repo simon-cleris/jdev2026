@@ -1,12 +1,13 @@
 ---
-layout: default
+layout: dark-slide
+clicks: 6
 ---
 
-# Sommaire
-
-1- First Project
-2- General Use of LLM
-3- My approach
-4- Illustration over embedded software project
-5- Briefly other example
-6- Discution limite et coût de l'IA
+<SlideSummary :items="[
+  'Mon premier projet catastrophe',
+  'L\'usage courant des LLM',
+  'Mon approche pour les sciences de l\'ingénieur',
+  'Illustration sur du code instrumental',
+  'Rapidement quelques autres projets choisis',
+  'Discussion : limites et coût de l\'IA',
+]" />

@@ -1,41 +1,29 @@
 :root {
-  --bg: #0f172a;
-  --text: #e2e8f0;
-  --text-strong: #f1f5f9;
-  --text-brightest: #f8fafc;
-  --text-muted: #94a3b8;
-  --text-faint: #64748b;
+  --bg: #1B3A8C;
+  --text: #f8fafc;
+  --text-strong: #ffffff;
+  --text-brightest: #ffffff;
+  --text-muted: #c7d4f0;
+  --text-faint: #8fa3d0;
 
-  --green: #22c55e;
-  --green-light: #86efac;
-  --green-bg: rgba(34, 197, 94, 0.08);
-  --green-border: rgba(34, 197, 94, 0.2);
+  --orange: #F5A200;
+  --orange-light: #fbbf24;
+  --orange-bg: rgba(245, 162, 0, 0.12);
+  --orange-border: rgba(245, 162, 0, 0.35);
 
-  --indigo: #6366f1;
-  --indigo-light: #a5b4fc;
-  --indigo-bg: rgba(99, 102, 241, 0.08);
-  --indigo-border: rgba(99, 102, 241, 0.3);
+  --navy: #1B3A8C;
+  --navy-light: #6b8fd4;
+  --navy-bg: rgba(255, 255, 255, 0.07);
+  --navy-border: rgba(255, 255, 255, 0.18);
 
-  --amber: #f59e0b;
-  --amber-light: #fbbf24;
-  --amber-bg: rgba(245, 158, 11, 0.08);
-  --amber-border: rgba(245, 158, 11, 0.2);
-
-  --red: #ef4444;
-  --red-light: #fca5a5;
-  --red-bg: rgba(239, 68, 68, 0.07);
-
-  --orange: #f97316;
-
-  --card-bg: rgba(255, 255, 255, 0.04);
-  --card-bg-code: rgba(255, 255, 255, 0.03);
-  --card-border-subtle: rgba(255, 255, 255, 0.07);
+  --card-bg: rgba(255, 255, 255, 0.07);
+  --card-bg-code: rgba(255, 255, 255, 0.05);
+  --card-border-subtle: rgba(255, 255, 255, 0.12);
 
   --slide-px: 3.5rem;
   --slide-py: 2rem;
 }
 
-/* Typography scale */
 .t-label {
   font-size: 0.75rem;
   font-family: monospace;
@@ -70,61 +58,36 @@
   color: var(--text-muted);
 }
 
-/* Cards */
 .card {
   border-radius: 0.5rem;
   padding: 1rem 1.25rem;
   background: var(--card-bg);
 }
 
-.card-left-green {
-  border-left: 3px solid var(--green);
+.card-left-orange {
+  border-left: 3px solid var(--orange);
   background: var(--card-bg);
   border-radius: 0.5rem;
   padding: 1rem 1.25rem;
 }
 
-.card-left-red {
-  border-left: 3px solid var(--red);
-  background: var(--card-bg);
-  border-radius: 0.5rem;
-  padding: 1rem 1.25rem;
-}
-
-.card-left-amber {
-  border-left: 3px solid var(--amber);
-  background: var(--amber-bg);
-  border-radius: 0.5rem;
-  padding: 1rem 1.25rem;
-}
-
-.card-indigo {
-  background: var(--indigo-bg);
-  border: 1px solid var(--indigo-border);
+.card-navy {
+  background: var(--navy-bg);
+  border: 1px solid var(--navy-border);
   border-radius: 0.75rem;
   padding: 1rem 2rem;
 }
 
-.card-green-outline {
-  background: rgba(34, 197, 94, 0.05);
-  border: 1px solid var(--green-border);
+.card-orange-outline {
+  background: var(--orange-bg);
+  border: 1px solid var(--orange-border);
   border-radius: 0.5rem;
   padding: 1rem 1.25rem;
 }
 
-/* Badge inline code */
-.badge-green {
-  background: rgba(34, 197, 94, 0.1);
-  color: var(--green-light);
-  font-family: monospace;
-  font-size: 0.7rem;
-  padding: 0.15rem 0.5rem;
-  border-radius: 0.25rem;
-}
-
-.badge-red {
-  background: rgba(239, 68, 68, 0.15);
-  color: var(--red-light);
+.badge-orange {
+  background: var(--orange-bg);
+  color: var(--orange-light);
   font-family: monospace;
   font-size: 0.7rem;
   padding: 0.15rem 0.5rem;
@@ -132,24 +95,14 @@
 }
 
 .badge-muted {
-  background: rgba(255, 255, 255, 0.07);
-  color: #cbd5e1;
+  background: rgba(255, 255, 255, 0.1);
+  color: #e2e8f0;
   font-family: monospace;
   font-size: 0.7rem;
   padding: 0.15rem 0.5rem;
   border-radius: 0.25rem;
 }
 
-/* Arrow accent */
-.arrow-green {
-  color: var(--green);
-}
-
-.arrow-orange {
-  color: var(--orange);
-}
-
-/* Slide shell */
 .slide {
   height: 100%;
   max-height: 100%;
@@ -160,7 +113,6 @@
   gap: 1.25rem;
 }
 
-/* Normalize markdown content inside cards */
 .card-md p {
   margin: 0 0 0.5rem 0;
   font-size: 0.875rem;
@@ -184,8 +136,8 @@
 }
 
 .card-md code {
-  background: rgba(34, 197, 94, 0.1);
-  color: var(--green-light);
+  background: var(--orange-bg);
+  color: var(--orange-light);
   font-family: monospace;
   font-size: 0.7rem;
   padding: 0.15rem 0.5rem;
@@ -202,5 +154,5 @@
 
 .card-md ul li::before {
   content: '→ ';
-  color: var(--green);
+  color: var(--orange);
 }

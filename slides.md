@@ -13,47 +13,39 @@ src: ./pages/02_summary.md
 ---
 
 ---
-src: ./pages/03_cloud.md
+src: ./pages/03_first_project.md
 ---
 
 ---
-src: ./pages/04_first_project.md
+src: ./pages/04_first_project_video.md
 ---
 
 ---
-src: ./pages/05_first_project_video.md
+src: ./pages/05_llm_main_application.md
 ---
 
 ---
-src: ./pages/06_how_llm_works.md
+src: ./pages/06_my_approach.md
 ---
 
 ---
-src: ./pages/07_my_approach.md
+src: ./pages/07_illustration_intro.md
 ---
 
 ---
-src: ./pages/08_illustration_intro.md
+src: ./pages/08_rule1_information.md
 ---
 
 ---
-src: ./pages/09_rule1_information.md
+src: ./pages/09_rule2_tools.md
 ---
 
 ---
-src: ./pages/10_rule5_context_automation.md
+src: ./pages/10_rule3-5_context_automation.md
 ---
 
 ---
-src: ./pages/11_rule3_context_restriction.md
----
-
----
-src: ./pages/12_rule2_tools.md
----
-
----
-src: ./pages/13_rule4_feedback.md
+src: ./pages/11_rule4_feedback.md
 ---
 
 ---

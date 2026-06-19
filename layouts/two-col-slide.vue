@@ -6,7 +6,7 @@ const { $frontmatter } = useSlideContext()
 <template>
   <div class="slidev-layout dark-slide slide">
     <div class="shrink-0" style="margin-bottom: 0.5rem;">
-      <div class="t-label" style="color: var(--green); margin-bottom: 0.25rem;">{{ $frontmatter.label }}</div>
+      <div class="t-label" style="color: var(--orange); margin-bottom: 0.25rem;">{{ $frontmatter.label }}</div>
       <h1 class="t-h1">{{ $frontmatter.title }}</h1>
       <p class="t-subtitle" style="margin-top: 0.25rem;">{{ $frontmatter.desc }}</p>
     </div>

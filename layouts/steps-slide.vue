@@ -6,7 +6,7 @@ const { $frontmatter } = useSlideContext()
 <template>
   <div class="slidev-layout dark-slide slide">
     <div class="shrink-0" style="margin-bottom: 0.5rem;">
-      <div class="t-label" style="color: var(--green); margin-bottom: 0.25rem;">{{ $frontmatter.label }}</div>
+      <div class="t-label" style="color: var(--orange); margin-bottom: 0.25rem;">{{ $frontmatter.label }}</div>
       <h1 class="t-h1">{{ $frontmatter.title }}</h1>
       <p class="t-subtitle" style="margin-top: 0.25rem;">{{ $frontmatter.desc }}</p>
     </div>
@@ -27,8 +27,8 @@ const { $frontmatter } = useSlideContext()
         <div
           class="text-xs px-2 py-0.5 rounded font-mono shrink-0"
           :style="step.human
-            ? 'background: rgba(245,158,11,0.12); color: var(--amber-light);'
-            : 'background: rgba(34,197,94,0.1); color: var(--green-light);'"
+            ? 'background: var(--navy-bg); color: var(--navy-light);'
+            : 'background: var(--orange-bg); color: var(--orange-light);'"
         >
           {{ step.human ? 'feedback humain' : 'autonome' }}
         </div>

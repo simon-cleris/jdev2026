@@ -4,6 +4,7 @@ import { ref, computed, onMounted, onUnmounted } from 'vue'
 const props = defineProps({
   citations: { type: Array, default: () => [] },
   interval: { type: Number, default: 5000 },
+  title: { type: String, default: '' },
 })
 
 const texts = computed(() =>
@@ -13,6 +14,7 @@ const texts = computed(() =>
 const W = ref(0)
 const H = ref(0)
 const containerRef = ref(null)
+const cloudAreaRef = ref(null)
 
 // Each particle: position, velocity, citation index
 const particles = ref([])
@@ -53,8 +55,9 @@ function pickNext() {
 }
 
 onMounted(() => {
-  W.value = containerRef.value.offsetWidth
-  H.value = containerRef.value.offsetHeight
+  const area = cloudAreaRef.value ?? containerRef.value
+  W.value = area.offsetWidth
+  H.value = area.offsetHeight
   initParticles()
   tick()
   pickNext()
@@ -89,14 +92,19 @@ function particleStyle(p) {
 
 <template>
   <div ref="containerRef" class="cloud-root">
-    <div
-      v-for="p in particles"
-      :key="p.id"
-      class="particle"
-      :class="{ active: p.id === activeIdx }"
-      :style="particleStyle(p)"
-    >
-      <span class="p-text">"{{ texts[p.id] }}"</span>
+    <div v-if="title" class="title-banner">
+      <span class="title-text">{{ title }}</span>
+    </div>
+    <div ref="cloudAreaRef" class="cloud-area">
+      <div
+        v-for="p in particles"
+        :key="p.id"
+        class="particle"
+        :class="{ active: p.id === activeIdx }"
+        :style="particleStyle(p)"
+      >
+        <span class="p-text">"{{ texts[p.id] }}"</span>
+      </div>
     </div>
   </div>
 </template>
@@ -107,6 +115,33 @@ function particleStyle(p) {
   inset: 0;
   overflow: hidden;
   background: var(--bg);
+  display: flex;
+  flex-direction: column;
+}
+
+.title-banner {
+  flex-shrink: 0;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  padding: 0 3rem;
+}
+
+.title-text {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: var(--navy);
+  text-align: center;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+
+.cloud-area {
+  position: relative;
+  flex: 1;
+  overflow: hidden;
 }
 
 .particle {
@@ -144,7 +179,7 @@ function particleStyle(p) {
   position: absolute;
   inset: -1.5rem -2rem -1.5rem -2.25rem;
   background: rgba(0, 0, 0, 0.55);
-  border-left: 3px solid #f97316;
+  border-left: 3px solid var(--orange);
   border-radius: 4px;
   backdrop-filter: blur(6px);
   z-index: -1;

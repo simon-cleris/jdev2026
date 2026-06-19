@@ -2,30 +2,29 @@
 layout: rule-slide
 clicks: 3
 label: Résultat
-title: Un logiciel maîtrisé en 4 mois
+title: Le code embarqué réalisé en 4 mois
 ---
 
-::CardGreen{v-click="1"}
+::Card{v-click="1"}
 
 **Fiable**
 
-Hardware monté au fur et à mesure — chaque composant validé avant d'intégrer le suivant.
+Hardware monté au fur et à mesure et chaque composant est validé avant d'intégrer le suivant.
 
 ::
 
-::CardGreen{v-click="2"}
+::Card{v-click="2"}
 
 **Optimisé pour la maintenance assistée par IA**
 
-Contexte dynamique optimisé, toutes les informations disponibles — un futur agent repart aussi vite que le premier.
+Contexte dynamique optimisé, toutes les informations disponibles.
 
 ::
 
-::CardAmber{v-click="3"}
+::CardOutline{v-click="3"}
 
-**Note : les premiers scripts sont perfectionnistes**
+**Note : Les premiers scripts doivent être exécutés avec la plus grande rigueur**
 
-Template et habitudes de code soignés dès le départ — ils servent de modèle pour toute la suite.
-Le code contient en lui-même les préférences : pas besoin d'en mettre trop dans les master rules.
+Template et habitudes de code soignés dès le départ ils servent de modèle pour toute la suite.
 
 ::

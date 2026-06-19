@@ -2,7 +2,7 @@
   <div class="slidev-layout dark-slide slide" style="gap: 1.5rem;">
     <slot name="intro" />
     <slot name="transition" />
-    <div class="grid gap-2 flex-1 min-h-0" style="grid-template-columns: repeat(3, 1fr); align-content: start;">
+    <div class="flex flex-col gap-3 flex-1 min-h-0">
       <slot />
     </div>
   </div>
