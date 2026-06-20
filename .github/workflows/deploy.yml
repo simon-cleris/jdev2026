@@ -21,15 +21,16 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: 22
+          node-version: lts/*
 
-      - uses: pnpm/action-setup@v4
-        with:
-          version: latest
+      - name: Setup @antfu/ni
+        run: npm i -g @antfu/ni
 
-      - run: pnpm install
+      - name: Install dependencies
+        run: nci
 
-      - run: pnpm run build
+      - name: Build
+        run: nr build --base /${{ github.event.repository.name }}/
 
       - uses: actions/upload-pages-artifact@v3
         with:
