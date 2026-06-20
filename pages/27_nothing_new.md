@@ -1,33 +1,31 @@
 ---
 layout: ecologic-metric-slide
 label: Perspective
-title: Nouveau ? Pas tant que ca.
+title: Nouveau ? Pas tant que ça.
 ---
 
-::Card
-**Un choc provoque pour empecher la reflexion et la regulation**
+<style>
+.slidev-layout .flex.flex-col { padding-top: 0 !important; gap: 0.75rem !important; }
+</style>
 
-Chaque revolution technologique produit un sentiment d'urgence qui court-circuite la deliberation collective. L'IA ne fait pas exception.
+::Card
+**Le mythe de la noosphère**
+
+L'idée d'un monde idéal de l'esprit séparé de la matière n'est pas nouvelle. Pensez aux Grecs, pour qui le *labor* ne pouvait être accompli par les citoyens, car dégradant. (1)
 ::
 
 ::Card
-**La noosphere et la continuite du numerique**
+**Révélateur, non provocateur**
 
-L'idee d'un monde ideal separe de la matiere n'est pas nouvelle — elle traverse l'histoire de la pensee occidentale. Pensez aux Grecs, pour qui le *labor* ne pouvait etre fait par les citoyens car degradant. La mecanisation du monde et le mythe de la singularite s'inscrivent dans cette continuite.
+L'IA ne crée pas les problèmes. Elle accélère et amplifie les déséquilibres de nos sociétés qui ont permis son avènement.
 
-*Julien Mattern*
+- La standardisation du travail facilite le remplacement par l'IA.
+- Dans l'éducation : uniformiser l'évaluation a rendu possible l'automatisation de la correction.
 ::
 
-::Card
-**Revelateur, non provocateur**
-
-L'IA ne cree pas les problemes — elle accelere et amplifie des transformations deja en cours.
-
-- Le fordisme et la standardisation du travail *avant* l'IA ont prepare le terrain pour son remplacement.
-- Dans l'education : standardiser et uniformiser la notation a rendu possible l'automatisation de l'evaluation.
+::CardOutline
+**La nouveauté : l'infrastructure déjà en place a permis un déploiement fulgurant**
 ::
-
 ::div{.slide-sources}
-**Source**
-- Julien Mattern — *La mecanisation du monde et le mythe de la singularite*, Clermont MSH, Saison 4 (2024-2025) — https://www.canal-u.tv/chaines/clermontmsh/saison-4-2024-2025-machines/la-mecanisation-du-monde-et-le-mythe-de-la
+- Julien Mattern — *La mécanisation du monde et le mythe de la singularité*, Clermont MSH, Saison 4 (2024-2025) — https://www.canal-u.tv/chaines/clermontmsh/saison-4-2024-2025-machines/la-mecanisation-du-monde-et-le-mythe-de-la
 ::

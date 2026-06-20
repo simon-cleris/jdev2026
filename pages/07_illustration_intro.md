@@ -2,7 +2,7 @@
 layout: dark-slide
 label: Illustration
 title: "Application code embarqué instrumental"
-desc: Développement opérationnelle assistée par IA
+desc: Développement opérationnel assisté par IA
 ---
 
 <div class="slide">

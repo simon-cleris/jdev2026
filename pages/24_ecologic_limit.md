@@ -4,17 +4,20 @@ label: Limite Ecologique
 ---
 
 ::Card
-**Je ne suis pas sur que l'ecologie soit le critere le plus grave**
-- Certains usages sont déja local
-- L'exemple présenté sera peut être un jour réalisable par un modele 32 Go qui tourne en local.
-- Pour rappel certain disait que la qualité des sorties n'atteindrait jamais celle d'un développeur sénior.
+**Attention aux contre arguments**
+- Certains usages sont déjà locaux
+- L'exemple présenté sera peut-être un jour réalisable par un modèle 32 Go qui tourne en local.
+- Pour rappel, certains disaient que la qualité des sorties n'atteindrait jamais celle d'un développeur senior.
 
 ::
 
 ::Card
-**Il y aura toujours des utilisations ecologiquement aberrantes**
+**Pratique déjà obsolète**
+- Deux générations de modèles de retard
+- La mode des « loops » : réalisation d'un compilateur par IA autonome en continu pour 20 000 euros de tokens (janvier 2026).
+::
 
-- Ce que j'ai montre utilise un modele deja ancien de deux générations. La pratique actuelle lance des modeles bien plus performants en boucle : l'IA est relancee indefiniment jusqu'a ce que la tache donnée beaucoup plus haut niveau soit accomplie. (réalisation d'un compilateur en 2semaine en continue pour 20 000 euros de tokens en janvier 2026)
-- On économise du temps mais le ratio temps/coût plafonne.
-- On peut facilement lancer 100 agents en parallèle sur la même tache et 10 agent chargé de selectionné la meilleure réponse.
+::Card
+**Aucune considération pour le ratio efficacité/coût**
+- On peut facilement lancer 100 agents en parallèle sur la même tâche et 10 agents chargés de sélectionner la meilleure réponse.
 ::

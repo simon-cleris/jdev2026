@@ -10,7 +10,7 @@ desc: Détache des données d'entraînement, apporte du déterminisme, améliore
 
 **Accès Bash au poste de développement**
 
-Equivalent à la majorté de ce qu'un utilisateur peut faire.
+Équivalent à la majorité de ce qu'un utilisateur peut faire.
 
 ::
 
@@ -24,9 +24,9 @@ L'agent peut interagir avec l'instrument réel pour valider le comportement.
 
 ::Card{v-click="3"}
 
-**Accès au outil agentic claude code** 
+**Accès aux outils agentiques de Claude Code** 
 
-Peut être une contrainte lorsque l'on veut plus de personalisation. Simplifie l'automatisation du contexte
+Peut être une contrainte lorsqu'on veut plus de personnalisation. Simplifie l'automatisation du contexte
 
 ::
 

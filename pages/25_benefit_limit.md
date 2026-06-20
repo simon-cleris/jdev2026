@@ -3,48 +3,52 @@ layout: ecologic-metric-slide
 label: Limite efficience
 title: Toujours plus performant ?
 ---
+<div class="card-left-orange card-md col-span-2">
 
-::Card
-**Perte de resilience**
 
-La quete de productivite et d'efficience fait perdre en resilience systemique.
 
-*Voir les interventions d'Olivier Hamant.*
-::
+**Perte d'emploi, un problème ?**
+À chacun de faire son choix en 2027.
 
-::Card
+- Modèle capitaliste : sélection naturelle, productivité accrue, pression sur les salaires.
+- Modèle collectiviste : le travail que la collectivité se choisit est réparti entre tous, donc moins de travail pour tout le monde.
+
+
+</div>
+
+
+<div class="grid grid-cols-2 gap-3">
+
+<div class="card-left-orange card-md">
+
+**Perte de résilience (1)**
+
+</div>
+
+<div class="card-left-orange card-md">
+
 **Surcharge cognitive**
 
-Vecu personnel : migraines, fatigue extreme. L'optimisation permanente a un cout physiologique reel.
-::
+</div>
 
-::Card
-**Perte de confiance en soi**
+<div class="card-left-orange card-md">
 
-Pour les jeunes generations : confiance en soi effacee progressivement. Et deterioration de la relation enseignant-eleve.
-::
+**Perte de confiance (en soi et en l'autre)**
 
-::Card
-**Perte d'emploi**
+</div>
 
-Un probleme en soi ? La reponse depend du modele de societe que vous choisissez.
+<div class="card-left-orange card-md">
 
-- Modele capitaliste : selection naturelle, productivite accrue, pression sur les salaires.
-- Modele collectiviste : le travail necessaire est reparti entre tous — donc moins de travail pour tout le monde.
+**Perte cognitive (2)**
 
-A chacun de faire son choix. Le prochain scrutin est en 2027.
-::
+</div>
 
-::Card
-**La perte cognitive — le danger le plus profond**
 
-Pour moi, c'est la limite la plus grave. Chaque autre limite suffit a elle seule a nous pousser a appuyer sur pause — mais la perte cognitive pour les generations futures vaut mille fois les autres raisons.
+</div>
 
-*Eric Sadin*
-::
 
 ::div{.slide-sources}
 **Sources**
-- Olivier Hamant — *La Dictature de la Vitesse* (2023)
-- Eric Sadin — *L'IA ou le retour des esclaves machines* (2023)
+- (1) Olivier Hamant — *Antidote au culte de la performance* (2023)
+- (2) Eric Sadin — *Le Désert de nous-mêmes* (2025)
 ::

@@ -105,7 +105,7 @@ src: ./pages/25_benefit_limit.md
 ---
 
 ---
-src: ./pages/26_benefit_limit.md
+src: ./pages/26_control_limit.md
 ---
 
 ---

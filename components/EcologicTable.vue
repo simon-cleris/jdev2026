@@ -1,6 +1,6 @@
 <template>
   <div class="table-wrap card-navy">
-    <div class="table-label">Consommation mondiale — IEA (optimiste) </div>
+    <div class="table-label">Consommation mondiale — IEA (optimiste)</div>
     <table>
       <thead>
         <tr>
@@ -11,7 +11,7 @@
       </thead>
       <tbody>
         <tr>
-          <td>Electricité mondiale</td>
+          <td>Électricité mondiale</td>
           <td>~28 000 TWh</td>
           <td>~33 000 TWh</td>
         </tr>

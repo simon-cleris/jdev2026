@@ -23,9 +23,9 @@ Contexte dynamique optimisé, toutes les informations disponibles.
 
 ::Card{v-click="3"}
 
-**Note : Les premiers scripts doivent être exécutés avec la plus grande rigueur**
+**Note : Les premiers scripts doivent être minutieusement examinés**
 
-Template et habitudes de code soignés dès le départ ils servent de modèle pour toute la suite.
+Template et habitudes de code soignés dès le départ, ils servent de modèle pour toute la suite.
 
 ::
 

@@ -1,6 +1,6 @@
 ---
 layout: approach-slide
-clicks: 10
+clicks: 9
 label: Mon approche (Pour les sciences de l'ingénieur)
 tagline: Utilisation comme "capacité de raisonnement" sans aucun savoir
 paradox: "Paradoxe assumé : un \"raisonnement\" émergent d'un calcul probabiliste ? Ne pas tirer profit de sa base de connaissances ?"
@@ -18,10 +18,10 @@ tech:
 guards:
   - label: "Fixer une limite d'utilisation"
     body: "Analogie data 3G/4G/5G."
-  - label: "Utiliser que pour ce qu'on sait faire"
+  - label: "N'utiliser que pour ce qu'on sait faire"
     body: "Accélère ce qu'on peut faire soi-même."
   - label: "Contenir le pouvoir d'action"
-    body: "Supervision total ou containerisation."
+    body: "Supervision totale ou containerisation."
   - label: Attention aux données sensibles
-    body: "Evident."
+    body: "Évident."
 ---

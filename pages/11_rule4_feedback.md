@@ -8,8 +8,8 @@ desc: Apporte du déterminisme, améliore la qualité, continue jusqu'à la réu
 
 ::Card{v-click="1"}
 
-**Interrogation direct du hardware** 
-- Loop jusqu'à trouver le bon protocol de communication
+**Interrogation directe du hardware** 
+- Boucle jusqu'à trouver le bon protocole de communication
 - Mock du hardware une fois validé pour accélérer les tests
 
 ::
@@ -25,7 +25,7 @@ desc: Apporte du déterminisme, améliore la qualité, continue jusqu'à la réu
 ::Card{v-click="3"}
 
 **Tests end-to-end**
-- Chaque spécification fonctionnelle à son test
+- Chaque spécification fonctionnelle a son test
 - Simulation de différentes configurations de vol
 
 ::

@@ -18,7 +18,7 @@ Pas de raisonnement, pas de compréhension : de la statistique à partir d'une i
 ::transition::
 
 <div v-click="1" class="text-center text-base font-semibold shrink-0" style="color: #cbd5e1;">
- L'utilisation la plus courante d'un llm c'est l'utiliser pour son "savoir"
+ L'utilisation la plus courante d'un LLM, c'est de l'utiliser pour son "savoir"
 </div>
 
 ::default::
