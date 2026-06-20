@@ -1,8 +1,9 @@
 <script setup>
-import { ref } from 'vue'
+import { ref, computed } from 'vue'
 import { onSlideEnter, onSlideLeave } from '@slidev/client'
 
 const props = defineProps({ src: String })
+const resolvedSrc = computed(() => import.meta.env.BASE_URL.replace(/\/$/, '') + props.src)
 const video = ref(null)
 
 onSlideEnter(() => {
@@ -23,7 +24,7 @@ onSlideLeave(() => {
 <template>
   <video
     ref="video"
-    :src="src"
+    :src="resolvedSrc"
     playsinline
     style="width: 100%; height: 100%; max-height: 100%; object-fit: contain; border-radius: 0.75rem;"
   />
