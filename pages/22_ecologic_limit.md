@@ -1,22 +1,29 @@
 ---
-layout: ecologic-traffic-slide
+layout: ecologic-metric-slide
 label: Limite Ecologique
-title: L'IA et son coût énergétique
 ---
 
-<EcologicTable />
+::Card 
+**Hypothèse : chaque requête contribue à l'essor global de l'IA**
 
-::div{.card-left-orange.card-md}
-**Estimation Google (2025)**{.badge-muted}
+- L'estimation Google ne compte que l'inférence.
+- **~10 trillions requêtes/an** (ChatGPT ~2,5 Mds requêtes/jour (1) et environ 10 % du marché (OpenRouter 2025))
+- 50 TWh pour l'IA en 2025
 
-Prompt Gemini médian : **0,24 Wh** — 0,03 g CO₂e — 0,26 mL d'eau ≈ 1 sec de four à 180°
-
-*Measuring the environmental impact of delivering AI at Google Scale* (arXiv, mars 2025)
+**5 Wh / requête** (20 fois l'estimation de l'inférence de google et 20% de la batterie d'un smartphone)
 ::
 
+::Card
+**Le coût par requête est une mauvaise métrique**
+- Le coût unitaire va baisser, mais le **coût total va exploser**.
+- Il vaut mieux regarder la consommation moyenne par utilisateur (sujette à l'effet rebond, comme pour la 3G/4G/5G)
+
+Simple mise en perspective qui n'enlève rien au bilan précédent : le GIEC estime que **devenir végétarien réduit en moyenne, au niveau mondial, les émissions de GES de 10 %**.
+
+::
 
 ::div{.slide-sources}
 **Sources**
-- IEA — *Energy and AI*, Executive Summary (2025) — https://www.iea.org/reports/energy-and-ai/executive-summary
-- *Measuring the environmental impact of delivering AI at Google Scale* (mars 2025) — https://doi.org/10.48550/arXiv.2508.15734
+- (1) OpenAI — *OpenAI's new economic analysis* (22 juillet 2025) — https://openai.com/global-affairs/new-economic-analysis/
+- GIEC/IPCC — *Climate Change and Land*, Chapitre 5 (2019)
 ::

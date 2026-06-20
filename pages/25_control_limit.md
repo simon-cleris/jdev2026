@@ -1,7 +1,7 @@
 ---
 layout: ecologic-metric-slide
 label: Limite du contrôle
-title: Peut-on juste se suffire de règles d'utilisation ?
+title: Peut-on se contenter de règles d'utilisation ?
 ---
 
 ::Card

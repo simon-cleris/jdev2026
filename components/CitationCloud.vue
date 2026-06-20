@@ -3,7 +3,7 @@ import { ref, computed, onMounted, onUnmounted } from 'vue'
 
 const props = defineProps({
   citations: { type: Array, default: () => [] },
-  interval: { type: Number, default: 5000 },
+  interval: { type: Number, default: 7000 },
   title: { type: String, default: '' },
 })
 

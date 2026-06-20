@@ -1,7 +1,7 @@
 ---
 layout: influence-slide
 label: Limite influence
-title: L'IA fabrique de l'ignorance. Et l'ignorance sur l'IA ?
+title: L'IA fabrique de l'ignorance. Mais l'ignorance est aussi fabriquer sur l'IA
 ---
 
 ::div{.slide-sources}
