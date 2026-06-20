@@ -1,13 +1,17 @@
 <template>
   <div class="layout">
     <div class="instruments">
-      <div class="instrument-card" v-for="inst in instruments" :key="inst.src">
-        <div class="instrument-label">{{ inst.label }}</div>
-        <img :src="inst.src" :alt="inst.label" class="instrument-img" />
+      <div class="instrument-card">
+        <div class="instrument-label">Minio3</div>
+        <img src="/assets/minio3.jpg" alt="Minio3" class="instrument-img" />
+      </div>
+      <div class="instrument-card">
+        <div class="instrument-label">Package 1</div>
+        <img src="/assets/package1.jpg" alt="Package 1" class="instrument-img" />
       </div>
     </div>
 
-<div class="aircraft-side">
+    <div class="aircraft-side">
       <img src="/assets/SAFIRE-1.jpg" alt="Safire" class="aircraft-img" />
       <div class="aircraft-label">Safire</div>
     </div>
@@ -15,10 +19,6 @@
 </template>
 
 <script setup>
-const instruments = [
-  { src: '/assets/minio3.jpg', label: 'Minio3' },
-  { src: '/assets/package1.jpg', label: 'Package 1' },
-]
 </script>
 
 <style scoped>
