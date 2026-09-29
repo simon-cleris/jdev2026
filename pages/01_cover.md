@@ -30,4 +30,4 @@ const citations = [
 ]
 </script>
 
-<CitationCloud :interval="8000" :citations="citations" title="Ce que l'IAg peut vraiment faire et ce que ça nous coûte" />
+<CitationCloud :interval="8000" :citations="citations" title="Ce que l'IAg peut vraiment faire et ce que ça nous coûte" author="Simon CLERIS" affiliation="IR LAERO — MardiScience" />

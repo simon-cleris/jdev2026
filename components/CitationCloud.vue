@@ -5,6 +5,8 @@ const props = defineProps({
   citations: { type: Array, default: () => [] },
   interval: { type: Number, default: 7000 },
   title: { type: String, default: '' },
+  author: { type: String, default: '' },
+  affiliation: { type: String, default: '' },
 })
 
 const texts = computed(() =>
@@ -106,6 +108,10 @@ function particleStyle(p) {
         <span class="p-text">"{{ texts[p.id] }}"</span>
       </div>
     </div>
+    <div v-if="author" class="author">
+      <span class="author-name">{{ author }}</span>
+      <span v-if="affiliation" class="author-affiliation">{{ affiliation }}</span>
+    </div>
   </div>
 </template>
 
@@ -142,6 +148,29 @@ function particleStyle(p) {
   position: relative;
   flex: 1;
   overflow: hidden;
+}
+
+.author {
+  position: absolute;
+  left: 2rem;
+  bottom: 2.25rem;
+  z-index: 20;
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  padding-left: 0.75rem;
+  border-left: 3px solid var(--orange);
+}
+
+.author-name {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.author-affiliation {
+  font-size: 0.75rem;
+  color: var(--text-muted);
 }
 
 .particle {
