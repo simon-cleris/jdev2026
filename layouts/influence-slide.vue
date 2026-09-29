@@ -9,8 +9,10 @@ const { $frontmatter } = useSlideContext()
       <div class="t-label" style="color: var(--orange); margin-bottom: 0.25rem;">{{ $frontmatter.label }}</div>
       <h1 class="t-h1">{{ $frontmatter.title }}</h1>
     </div>
-    <div class="flex flex-1 min-h-0 items-center justify-center" style="padding-bottom: 4rem;">
-      <img src="/assets/influence.png" alt="Influence diagram" class="influence-img" />
+    <div class="img-zone">
+      <div class="img-frame">
+        <img src="/assets/influence.png" alt="Influence diagram" class="influence-img" />
+      </div>
     </div>
     <slot />
   </div>
@@ -23,9 +25,24 @@ const { $frontmatter } = useSlideContext()
   height: 100%;
   overflow: hidden;
 }
+.img-zone {
+  flex: 1;
+  min-height: 0;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 7rem;
+}
+.img-frame {
+  height: 100%;
+  background: white;
+  border-radius: 0.75rem;
+  padding: 0.5rem;
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.3);
+}
 .influence-img {
-  max-height: 100%;
-  max-width: 100%;
-  object-fit: contain;
+  display: block;
+  height: 100%;
+  width: auto;
+  border-radius: 0.5rem;
 }
 </style>
