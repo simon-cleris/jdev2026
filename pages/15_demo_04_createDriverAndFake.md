@@ -1,8 +1,8 @@
 ---
-layout: dark-slide
+layout: demo-slide
+step: 4
+title: Création du driver et du mock
+video: /assets/04_createDriverAndFake.mp4
 ---
 
-<div class="h-full flex flex-col items-center justify-center gap-1" style="margin-top: -1rem;">
-  <p class="t-label" style="color: var(--text-faint);">Création du driver et du mock</p>
-  <AutoPlayVideo src="/assets/04_createDriverAndFake.mp4" />
-</div>
+<div />
