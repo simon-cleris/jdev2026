@@ -25,6 +25,10 @@ src: ./pages/05_my_approach.md
 ---
 
 ---
+src: ./pages/section_illustration.md
+---
+
+---
 src: ./pages/06_illustration_intro.md
 ---
 
@@ -77,7 +81,15 @@ src: ./pages/18_demo_07_fin.md
 ---
 
 ---
+src: ./pages/section_projects.md
+---
+
+---
 src: ./pages/19_other_projects.md
+---
+
+---
+src: ./pages/section_limits.md
 ---
 
 ---
