@@ -1,5 +1,6 @@
 ---
 layout: rule-slide
+icon: i-carbon:tools
 clicks: 4
 label: Règle 2
 title: Fournir les outils

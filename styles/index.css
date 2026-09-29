@@ -174,3 +174,8 @@
   letter-spacing: 0.05em;
   color: var(--text-muted);
 }
+
+/* Bandes latérales (fenêtre non 16:9) : même bleu que les slides */
+:root {
+  --slidev-slide-container-background: #133F85;
+}

@@ -1,5 +1,6 @@
 ---
 layout: rule-slide
+icon: i-carbon:repeat
 clicks: 3
 label: Règle 4
 title: Fournir un feedback autonome

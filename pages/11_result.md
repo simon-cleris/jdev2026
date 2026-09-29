@@ -1,5 +1,6 @@
 ---
 layout: rule-slide
+icon: i-carbon:checkmark-outline
 clicks: 4
 label: Résultat
 title: Le code embarqué réalisé en 4 mois

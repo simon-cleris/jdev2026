@@ -17,7 +17,8 @@ defineProps({
         v-click="i + clickOffset"
         class="approach-rules__item"
       >
-        <span class="approach-rules__index">{{ i + 1 }}</span>
+        <span v-if="!item.icon" class="approach-rules__index">{{ i + 1 }}</span>
+        <div v-if="item.icon" :class="item.icon" class="approach-rules__icon" />
         <div class="flex-1">
           <span class="font-semibold text-sm" style="color: var(--text-brightest)">{{ item.label }}</span>
           <div class="t-body-sm mt-0.5">
@@ -111,6 +112,20 @@ defineProps({
 }
 
 .approach-rules--navy .approach-rules__index {
+  color: var(--navy-light);
+}
+
+.approach-rules__icon {
+  flex-shrink: 0;
+  font-size: 1.25rem;
+  margin-top: 0.1rem;
+}
+
+.approach-rules--orange .approach-rules__icon {
+  color: var(--orange);
+}
+
+.approach-rules--navy .approach-rules__icon {
   color: var(--navy-light);
 }
 

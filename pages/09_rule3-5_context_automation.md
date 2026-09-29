@@ -1,5 +1,6 @@
 ---
 layout: rule-slide
+icon: i-carbon:data-structured
 clicks: 4
 zoom: 0.8
 label: Règles 3 et 5

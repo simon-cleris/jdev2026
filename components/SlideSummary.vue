@@ -1,6 +1,8 @@
 <script setup>
+import { sections } from '../sections.js'
+
 defineProps({
-  items: { type: Array, required: true },
+  items: { type: Array, default: () => sections.map(s => s.title) },
 })
 </script>
 
