@@ -56,19 +56,34 @@ function pickNext() {
   activeIdx.value = next
 }
 
-onMounted(() => {
+let resizeObserver = null
+
+function measure() {
   const area = cloudAreaRef.value ?? containerRef.value
-  W.value = area.offsetWidth
-  H.value = area.offsetHeight
-  initParticles()
+  if (!area) return
+  const w = area.offsetWidth
+  const h = area.offsetHeight
+  if (!w || !h) return
+  const wasEmpty = !W.value || !H.value
+  W.value = w
+  H.value = h
+  // Première mesure valide (le slide peut être monté masqué ou en transition) : on place les particules
+  if (wasEmpty) initParticles()
+}
+
+onMounted(() => {
+  measure()
   tick()
   pickNext()
   highlightTimer = setInterval(pickNext, props.interval)
+  resizeObserver = new ResizeObserver(measure)
+  resizeObserver.observe(cloudAreaRef.value ?? containerRef.value)
 })
 
 onUnmounted(() => {
   cancelAnimationFrame(animFrame)
   clearInterval(highlightTimer)
+  resizeObserver?.disconnect()
 })
 
 function particleStyle(p) {
