@@ -6,7 +6,7 @@
 
 <style scoped>
 .dark-slide {
-  background: #1B3A8C;
+  background: #133F85;
   color: #f8fafc;
   height: 100%;
   overflow: hidden;

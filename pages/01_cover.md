@@ -1,6 +1,6 @@
 ---
 layout: cover
-background: '#0f172a'
+background: '#133F85'
 class: 'text-center text-white'
 ---
 
