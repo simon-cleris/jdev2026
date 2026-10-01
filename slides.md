@@ -129,5 +129,9 @@ src: ./pages/31_vibe_vs_agentic.md
 ---
 
 ---
+src: ./pages/32_get_tools.md
+---
+
+---
 src: ./pages/01_cover.md
 ---
