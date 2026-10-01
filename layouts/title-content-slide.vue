@@ -8,6 +8,7 @@ const { $frontmatter } = useSlideContext()
     <div class="shrink-0">
       <div class="t-label" style="color: var(--orange); margin-bottom: 0.25rem;">{{ $frontmatter.label }}</div>
       <h1 class="t-h1">{{ $frontmatter.title }}</h1>
+      <p v-if="$frontmatter.desc" class="t-subtitle" style="margin-top: 0.25rem;">{{ $frontmatter.desc }}</p>
     </div>
     <div class="flex flex-col gap-3 flex-1 min-h-0 justify-start pt-2" style="padding-bottom: 5rem;">
       <slot />

@@ -121,5 +121,13 @@ src: ./pages/29_nothing_new.md
 ---
 
 ---
+src: ./pages/30_definitions.md
+---
+
+---
+src: ./pages/31_vibe_vs_agentic.md
+---
+
+---
 src: ./pages/01_cover.md
 ---

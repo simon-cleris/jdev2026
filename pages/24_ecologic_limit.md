@@ -1,5 +1,5 @@
 ---
-layout: ecologic-metric-slide
+layout: title-content-slide
 label: Limite Ecologique
 title: L'IA et son coût énergétique
 ---

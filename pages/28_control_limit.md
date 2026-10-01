@@ -1,5 +1,5 @@
 ---
-layout: ecologic-metric-slide
+layout: title-content-slide
 label: Limite du contrôle
 title: Peut-on se contenter de règles d'utilisation ?
 ---

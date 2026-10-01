@@ -1,5 +1,5 @@
 ---
-layout: ecologic-metric-slide
+layout: title-content-slide
 label: Limite Ecologique
 title: Attention aux contre-arguments
 ---

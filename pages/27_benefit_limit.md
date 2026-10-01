@@ -1,5 +1,5 @@
 ---
-layout: ecologic-metric-slide
+layout: title-content-slide
 label: Limite efficience
 title: Toujours plus performant ?
 ---

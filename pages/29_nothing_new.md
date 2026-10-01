@@ -1,5 +1,5 @@
 ---
-layout: ecologic-metric-slide
+layout: title-content-slide
 label: Perspective
 title: Nouveau ? Pas tant que ça.
 ---
