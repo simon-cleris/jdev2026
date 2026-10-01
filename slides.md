@@ -135,3 +135,21 @@ src: ./pages/32_get_tools.md
 ---
 src: ./pages/01_cover.md
 ---
+
+---
+src: ./pages/33_news_2025.md
+---
+
+
+---
+src: ./pages/34_news_2026.md
+---
+
+
+---
+src: ./pages/35_news_navier_stokes.md
+---
+
+---
+src: ./pages/36_news_now.md
+---
