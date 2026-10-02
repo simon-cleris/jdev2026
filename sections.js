@@ -5,7 +5,7 @@ export const sections = [
   { title: "Du chatbot à l'agent : vocabulaire et usages", short: 'Du chatbot à l\'agent', from: 4, to: 7 },
   { title: "L'agentic engineering pour les sciences de l'ingénieur", short: 'Agentic engineering', from: 8, to: 8 },
   { title: 'Illustration sur du code instrumental', short: 'Illustration', from: 9, to: 23 },
-  { title: 'Rapidement quelques autres projets choisis', short: 'Autres projets', from: 24, to: 25 },
+  { title: 'Autres projets', short: 'Autres projets', from: 24, to: 25 },
   { title: "Discussion : limites et coût de l'IA", short: 'Limites et coût', from: 26, to: 33 },
   { title: 'Actualité', short: 'Actualité', from: 34, to: 38 },
 ]
