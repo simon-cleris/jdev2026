@@ -20,7 +20,7 @@ clicks: 3
 <div v-click="1" class="card-navy card-md !py-2 !px-3">"Eh chat, explique moi comment faire un trou dans un mur porteur"</div>
 
 <div v-click="2" class="card-navy card-md !py-2 !px-3"><strong>Exploration et apprentissage</strong></div>
-<div v-click="2" class="card-navy card-md !py-2 !px-3">Chatbot / Agent</div>
+<div v-click="2" class="card-navy card-md !py-2 !px-3">Chatbot</div>
 <div v-click="2" class="card-navy card-md !py-2 !px-3">Context engineering</div>
 <div v-click="2" class="card-navy card-md !py-2 !px-3">On utilise la "reflection" pour vulgariser une information que l'on a selectionné nous même</div>
 <div v-click="2" class="card-navy card-md !py-2 !px-3"> (Lien vers l'article) Voila ce que j'ai compris de cette article [...] : corrige ma compréhension</div>

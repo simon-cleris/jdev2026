@@ -21,11 +21,19 @@ src: ./pages/04_llm_main_application.md
 ---
 
 ---
-src: ./pages/05_my_approach.md
+src: ./pages/31_definitions.md
+---
+
+---
+src: ./pages/32_vibe_vs_agentic.md
 ---
 
 ---
 src: ./pages/06_three_uses.md
+---
+
+---
+src: ./pages/05_my_approach.md
 ---
 
 ---
@@ -122,14 +130,6 @@ src: ./pages/29_control_limit.md
 
 ---
 src: ./pages/30_nothing_new.md
----
-
----
-src: ./pages/31_definitions.md
----
-
----
-src: ./pages/32_vibe_vs_agentic.md
 ---
 
 ---

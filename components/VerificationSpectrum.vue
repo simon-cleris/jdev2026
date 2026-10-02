@@ -1,6 +1,6 @@
 <script setup>
 const stops = [
-  { title: 'Vibe Coding', color: '#f87171', point: '« Ça a l\'air de marcher ? »' },
+  { title: 'Vibe', color: '#f87171', point: '« Ça a l\'air de marcher ? »' },
   { title: 'Assisté et structuré', color: '#e2e8f0', point: 'Tests manuels' },
   { title: 'Agentic Engineering', color: '#3EC1F0', point: 'Specs + évaluations automatiques + CI/CD' },
 ]

@@ -1,7 +1,7 @@
 ---
 layout: title-content-slide
 label: Vocabulaire
-title: Vibe Coding VS Agentic Engineering
+title: Vibe VS Agentic Engineering
 desc: Un prototype peut être du vibe coding, une mise en production exige de l'agentic engineering
 clicks: 3
 ---

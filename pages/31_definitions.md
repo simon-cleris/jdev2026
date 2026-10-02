@@ -19,15 +19,15 @@ clicks: 4
 
 **Context Engineering**{.badge-orange}
 
-*« Comment fournir automatiquement à l'agent les bons prompts au bon moment ? »*
+*« Comment fournir automatiquement les bonnes informations et pas plus ? »*
 
 </div>
 
 <div v-click="3" class="card-left-orange card-md">
 
-**Harness Engineering**{.badge-orange}
+**Harness Engineering --> Agent**{.badge-orange}
 
-*« Comment construire l'environnement dans lequel l'agent peut agir : outils, état, contraintes, feedback, loops, tests, permissions… ? »*
+*« Comment construire l'environnement dans lequel agir : contexte, outils, contraintes, feedback, loops ? »*
 
 </div>
 
