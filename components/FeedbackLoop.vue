@@ -1,4 +1,18 @@
 <script setup>
+import { useSlideContext } from '@slidev/client'
+
+const { $clicks } = useSlideContext()
+
+const cycle = 6
+// One dot per arrow, it jumps from arrow to arrow without crossing the cards.
+// from / to are fractions of the cycle.
+const pulses = [
+  { path: 'M517,120 L608,63', from: 0.083, to: 0.22 },
+  { path: 'M517,146 L608,145', from: 0.083, to: 0.22 },
+  { path: 'M517,172 L608,227', from: 0.083, to: 0.22 },
+  { path: 'M725,262 L725,338 L542,338', from: 0.26, to: 0.59 },
+  { path: 'M420,310 L420,198', from: 0.63, to: 0.77 },
+]
 const inputs = [
   { y: 28, ty: 120, lines: ['Contexte minimal', 'CLAUDE.md global + par dossier'] },
   { y: 110, ty: 146, lines: ['Outils', 'bash · SSH vers l\'instrument'] },
@@ -58,6 +72,14 @@ const outputs = [
       <path d="M420,310 L420,198" class="link loop-link" marker-end="url(#arrow)" />
       <text x="432" y="262" class="loop-label">boucle jusqu'à la réussite</text>
     </g>
+
+    <!-- Pulse travelling along the arrows once the whole loop is revealed -->
+    <g v-if="$clicks >= 4">
+      <circle v-for="(b, i) in pulses" :key="i" r="6" class="ball" opacity="0">
+        <animateMotion :dur="`${cycle}s`" repeatCount="indefinite" :path="b.path" :keyTimes="`0;${b.from};${b.to};1`" keyPoints="0;0;1;1" calcMode="linear" />
+        <animate attributeName="opacity" :dur="`${cycle}s`" repeatCount="indefinite" values="0;1;0" :keyTimes="`0;${b.from};${b.to}`" calcMode="discrete" />
+      </circle>
+    </g>
   </svg>
 </template>
 
@@ -69,6 +91,7 @@ const outputs = [
 .feedback { stroke: var(--orange); stroke-dasharray: 5 4; }
 .pull { stroke: var(--orange-border); stroke-dasharray: 5 4; }
 .pull-link { stroke: var(--orange-light); stroke-dasharray: 5 4; }
+.ball { fill: var(--orange-light); filter: drop-shadow(0 0 4px var(--orange)); }
 .human { stroke: var(--navy-border); }
 .title { fill: var(--text-strong); font-size: 14px; font-weight: 700; }
 .agent-title { fill: var(--text-strong); font-size: 22px; font-weight: 700; }
