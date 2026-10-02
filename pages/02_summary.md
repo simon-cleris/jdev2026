@@ -1,6 +1,6 @@
 ---
 layout: dark-slide
-clicks: 6
+clicks: 7
 ---
 
 <SlideSummary />

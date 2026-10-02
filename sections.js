@@ -7,4 +7,5 @@ export const sections = [
   { title: 'Illustration sur du code instrumental', short: 'Illustration', from: 9, to: 23 },
   { title: 'Rapidement quelques autres projets choisis', short: 'Autres projets', from: 24, to: 25 },
   { title: "Discussion : limites et coût de l'IA", short: 'Limites et coût', from: 26, to: 33 },
+  { title: 'Actualité', short: 'Actualité', from: 34, to: 38 },
 ]

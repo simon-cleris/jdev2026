@@ -137,27 +137,25 @@ src: ./pages/33_nothing_new.md
 ---
 
 ---
-src: ./pages/34_get_tools.md
+src: ./pages/34_section_news.md
+---
+
+---
+src: ./pages/35_news_2025.md
+---
+
+---
+src: ./pages/36_news_2026.md
+---
+
+---
+src: ./pages/37_news_now.md
+---
+
+---
+src: ./pages/38_get_tools.md
 ---
 
 ---
 src: ./pages/01_cover.md
----
-
----
-src: ./pages/36_news_2025.md
----
-
-
----
-src: ./pages/37_news_2026.md
----
-
-
----
-src: ./pages/38_news_navier_stokes.md
----
-
----
-src: ./pages/39_news_now.md
 ---

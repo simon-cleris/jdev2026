@@ -27,7 +27,7 @@ defineProps({
   color: var(--orange);
   white-space: nowrap;
 }
-.unit { font-size: 1rem; font-weight: 600; color: var(--orange-light); }
+.unit { font-size: 1rem; font-weight: 600; color: var(--orange-light); white-space: nowrap; }
 .label {
   font-size: 0.7rem;
   font-family: monospace;

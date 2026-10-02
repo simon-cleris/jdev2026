@@ -1,5 +1,6 @@
 <script setup>
 import { useSlideContext } from '@slidev/client'
+import { sections } from '../sections.js'
 const { $frontmatter } = useSlideContext()
 </script>
 
@@ -7,7 +8,7 @@ const { $frontmatter } = useSlideContext()
   <div class="slidev-layout dark-slide section">
     <div class="section-number">{{ $frontmatter.number }}</div>
     <div class="section-body">
-      <div class="t-label" style="color: var(--orange);">Partie {{ Number($frontmatter.number) }} / 6</div>
+      <div class="t-label" style="color: var(--orange);">Partie {{ Number($frontmatter.number) }} / {{ sections.length }}</div>
       <h1 class="section-title">{{ $frontmatter.title }}</h1>
       <p v-if="$frontmatter.desc" class="section-desc">{{ $frontmatter.desc }}</p>
     </div>
