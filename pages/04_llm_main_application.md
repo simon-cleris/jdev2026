@@ -13,6 +13,8 @@ Prédit le token suivant le plus probable compte tenu des tokens précédents et
 
 Pas de raisonnement, pas de compréhension : de la statistique à partir d'une immense base de données
 
+<TokenPrediction />
+
 </div>
 
 ::transition::
