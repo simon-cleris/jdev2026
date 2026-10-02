@@ -2,8 +2,6 @@ ajouter le changement dh'abiture pour adatper l'outil au mieux à l'ia parallele
 
 Rajouter le fait que le plan demande le plus gros LLM mais la c'est nous qui faisons le plan.
 
-Rajouter le terme AI factory
-
 Parler du fais qu'il faut nuancer entre lui dire exactement comment faire et lui laisser la possiblité de faire mieux que ce que l'on pense -> séparé l'étape
 
 nuancé en fonction de la difficulté de la tache (pour une ia par la difficulté pour un humain)
