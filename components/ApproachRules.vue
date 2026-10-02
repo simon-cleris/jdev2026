@@ -21,7 +21,7 @@ defineProps({
         <div v-if="item.icon" :class="item.icon" class="approach-rules__icon" />
         <div class="flex-1">
           <span class="font-semibold text-sm" style="color: var(--text-brightest)">{{ item.label }}</span>
-          <div class="t-body-sm mt-0.5">
+          <div v-if="item.body" class="t-body-sm mt-0.5">
             <span class="approach-rules__arrow">→</span> {{ item.body }}
           </div>
         </div>
@@ -83,7 +83,7 @@ defineProps({
 
 .approach-rules__item {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   gap: 0.75rem;
   border-radius: 0.5rem;
   padding: 0.25rem 1rem;
@@ -118,7 +118,6 @@ defineProps({
 .approach-rules__icon {
   flex-shrink: 0;
   font-size: 1.25rem;
-  margin-top: 0.1rem;
 }
 
 .approach-rules--orange .approach-rules__icon {

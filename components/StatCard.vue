@@ -13,7 +13,7 @@ defineProps({
       <span v-if="unit" class="unit">{{ unit }}</span>
     </div>
     <div v-if="label" class="label">{{ label }}</div>
-    <div class="card-md body"><slot /></div>
+    <div v-if="$slots.default" class="card-md body"><slot /></div>
   </div>
 </template>
 

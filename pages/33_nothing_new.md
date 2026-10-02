@@ -9,9 +9,9 @@ title: Nouveau ? Pas tant que ça.
 </style>
 
 ::Card
-**Le mythe de la noosphère**
+**La quête de la noosphère**
 
-L'idée d'un monde idéal de l'esprit séparé de la matière n'est pas nouvelle. Pensez aux Grecs, pour qui le *labor* ne pouvait être accompli par les citoyens, car dégradant. (1)
+L'idée d'un monde idéal de l'esprit séparé de la matière n'est pas nouvelle.
 ::
 
 ::Card

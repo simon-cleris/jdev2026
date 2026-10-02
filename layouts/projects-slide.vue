@@ -27,6 +27,6 @@ const { $frontmatter } = useSlideContext()
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0.875rem;
-  align-content: start;
+  align-content: center;
 }
 </style>

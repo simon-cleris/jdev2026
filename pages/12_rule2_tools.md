@@ -11,23 +11,17 @@ desc: Détache des données d'entraînement, apporte du déterminisme, améliore
 
 **Accès Bash au poste de développement**
 
-Équivalent à la majorité de ce qu'un utilisateur peut faire.
-
 ::
 
 ::Card{v-click="2"}
 
-**Accès SSH à l'instrument** 
-
-L'agent peut interagir avec l'instrument réel pour valider le comportement.
+**Accès SSH à l'instrument**
 
 ::
 
 ::Card{v-click="3"}
 
-**Accès aux outils agentiques de Claude Code** 
-
-Peut être une contrainte lorsqu'on veut plus de personnalisation. Simplifie l'automatisation du contexte
+**Accès aux outils agentiques de Claude Code**
 
 ::
 
@@ -36,3 +30,23 @@ Peut être une contrainte lorsqu'on veut plus de personnalisation. Simplifie l'a
 Supervision de chaque sortie, approbation explicite de toute commande.
 
 ::
+
+<style scoped>
+.card-md {
+  padding: 1.5rem 2rem;
+}
+.card-md p:first-child > strong:only-child {
+  font-size: 1.35rem;
+  margin-bottom: 0;
+}
+.card-orange-outline.card-md p {
+  font-size: 1.1rem;
+}
+</style>
+
+<!--
+[click] Accès Bash au poste de développement : équivalent à la majorité de ce qu'un utilisateur peut faire.
+[click] Accès SSH à l'instrument : l'agent peut interagir avec l'instrument réel pour valider le comportement.
+[click] Accès aux outils agentiques de Claude Code : peut être une contrainte lorsqu'on veut plus de personnalisation. Simplifie l'automatisation du contexte.
+[click] Supervision de chaque sortie, approbation explicite de toute commande.
+-->

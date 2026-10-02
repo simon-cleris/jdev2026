@@ -9,15 +9,11 @@ title: Premier projet — les erreurs
 
 **Librairie non maîtrisée**
 
-→ Bad patterns non détectés, propagés silencieusement dans tout le code
-
 ::
 
 ::Card{v-click="2"}
 
 **Contexte non structuré**
-
-→ Coût élevé, duplication de code, mauvaise qualité
 
 ::
 
@@ -25,23 +21,17 @@ title: Premier projet — les erreurs
 
 **Pas de spec fonctionnelle**
 
-→ Duplication de code, périmètre instable
-
 ::
 
 ::Card{v-click="4"}
 
 **Spec technique insuffisante**
 
-→ Overengineering incontrôlé
-
 ::
 
 ::Card{v-click="5"}
 
 **Feedback manuel**
-
-→ Mauvaise qualité et temps perdu en boucles de correction
 
 ::
 
@@ -50,3 +40,12 @@ title: Premier projet — les erreurs
 Malgré tout : projet simple, objectif atteint, délai négligeable. Sur un projet plus grand...
 
 ::
+
+<!--
+[click] Librairie non maîtrisée : Bad patterns non détectés, propagés silencieusement dans tout le code.
+[click] Contexte non structuré : Coût élevé, duplication de code, mauvaise qualité.
+[click] Pas de spec fonctionnelle : Duplication de code, périmètre instable.
+[click] Spec technique insuffisante : Overengineering incontrôlé.
+[click] Feedback manuel : Mauvaise qualité et temps perdu en boucles de correction.
+[click] Malgré tout : projet simple, objectif atteint, délai négligeable. Sur un projet plus grand...
+-->

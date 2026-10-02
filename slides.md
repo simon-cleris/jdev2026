@@ -25,15 +25,15 @@ src: ./pages/05_definitions.md
 ---
 
 ---
-src: ./pages/06_vibe_vs_agentic.md
+src: ./pages/06_three_uses.md
 ---
 
 ---
-src: ./pages/07_three_uses.md
+src: ./pages/07_vibe_vs_agentic.md
 ---
 
 ---
-src: ./pages/08_my_approach.md
+src: ./pages/08_agentic_engineering.md
 ---
 
 ---
