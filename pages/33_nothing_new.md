@@ -4,7 +4,10 @@ label: Perspective
 title: Nouveau ? Pas tant que ça.
 ---
 
+<div class="assembly"><AssemblyLine /></div>
+
 <style>
+.assembly { position: absolute; top: 1.25rem; right: 3.5rem; width: 360px; opacity: 0.9; pointer-events: none; }
 .slidev-layout .flex.flex-col { padding-top: 0 !important; gap: 0.75rem !important; }
 </style>
 
