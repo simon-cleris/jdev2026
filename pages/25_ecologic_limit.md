@@ -1,42 +1,23 @@
 ---
 layout: title-content-slide
 label: Limite Ecologique
-title: Ce que l'estimation ne compte pas
+title: L'IA et son coût énergétique
 ---
 
-<div class="grid grid-cols-3 gap-4">
-  <StatCard value="~10" unit="trillions requêtes/an" label="Volume">
+<div class="grid gap-4 items-stretch" style="grid-template-columns: 1.7fr 1fr;">
+  <EnergyChart />
+  <StatCard value="0,24" unit="Wh" label="Prompt Gemini médian (Google, 2025)">
 
-ChatGPT ~2,5 Mds requêtes/jour (1), environ 10 % du marché (OpenRouter 2025)
-  </StatCard>
-  <StatCard value="50" unit="TWh" label="IA en 2025">
+0,03 g CO₂e — 0,26 mL d'eau ≈ 1 sec de four à 180°
 
-L'estimation Google ne compte que l'inférence.
-  </StatCard>
-  <StatCard value="5" unit="Wh / requête" label="×20 l'estimation Google">
+*Measuring the environmental impact of delivering AI at Google Scale* (arXiv, mars 2025)
 
-20 % de la batterie d'un smartphone. Hypothèse : chaque requête contribue à l'essor global de l'IA.
   </StatCard>
 </div>
 
-::Card
-**Le coût par requête est une mauvaise métrique**
-- Le coût unitaire va baisser, mais le **coût total va exploser**.
-- Il vaut mieux regarder la consommation moyenne par utilisateur (sujette à l'effet rebond, comme pour la 3G/4G/5G)
-
-Simple mise en perspective qui n'enlève rien au bilan précédent : le GIEC estime que **devenir végétarien réduit en moyenne, au niveau mondial, les émissions de GES de 10 %**.
-::
-
 ::div{.slide-sources}
 **Sources**
-- (1) OpenAI — *OpenAI's new economic analysis* (22 juillet 2025) — https://openai.com/global-affairs/new-economic-analysis/
-- GIEC/IPCC — *Climate Change and Land*, Chapitre 5 (2019)
+- UIT — *ICT sector GHG emissions* (1,5–4 %) — itu.int · IEA — *Energy and AI* (2025) — iea.org/reports/energy-and-ai
+- ADEME-Arcep — *Empreinte environnementale du numérique* (2023) — arcep.fr
+- *Measuring the environmental impact of delivering AI at Google Scale* (mars 2025) — https://doi.org/10.48550/arXiv.2508.15734
 ::
-
-<style>
-.slidev-layout .card-md p:last-child { font-size: 0.75rem; }
-.slidev-layout .slide-sources { bottom: 2.25rem; }
-.slidev-layout .stat { padding: 0.5rem 1rem; }
-.slidev-layout .card-left-orange.card-md { padding: 0.6rem 1.25rem; }
-.slidev-layout .card-md p:first-child > strong:only-child { margin-bottom: 0; }
-</style>

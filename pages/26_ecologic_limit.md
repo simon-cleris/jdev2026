@@ -1,47 +1,42 @@
 ---
 layout: title-content-slide
 label: Limite Ecologique
-title: Attention aux contre-arguments
+title: Ce que l'estimation ne compte pas
 ---
 
-::Card
-<div class="arg-head">
-  <span class="arg-title">Certains usages sont déjà locaux</span>
+<div class="grid grid-cols-3 gap-4">
+  <StatCard value="~10" unit="trillions requêtes/an" label="Volume">
+
+ChatGPT ~2,5 Mds requêtes/jour (1), environ 10 % du marché (OpenRouter 2025)
+  </StatCard>
+  <StatCard value="50" unit="TWh" label="IA en 2025">
+
+L'estimation Google ne compte que l'inférence.
+  </StatCard>
+  <StatCard value="5" unit="Wh / requête" label="×20 l'estimation Google">
+
+20 % de la batterie d'un smartphone. Hypothèse : chaque requête contribue à l'essor global de l'IA.
+  </StatCard>
 </div>
 
-- L'exemple présenté sera peut-être un jour réalisable par un modèle 32 Go qui tourne en local.
-- Pour rappel, certains disaient que la qualité des sorties n'atteindrait jamais celle d'un développeur senior.
+::Card
+**Le coût par requête est une mauvaise métrique**
+- Le coût unitaire va baisser, mais le **coût total va exploser**.
+- Il vaut mieux regarder la consommation moyenne par utilisateur (sujette à l'effet rebond, comme pour la 3G/4G/5G)
+
+Simple mise en perspective qui n'enlève rien au bilan précédent : le GIEC estime que **devenir végétarien réduit en moyenne, au niveau mondial, les émissions de GES de 10 %**.
 ::
 
-::Card
-<div class="arg-head">
-  <span class="arg-title">Pratique déjà obsolète</span>
-</div>
-
-- Deux générations de modèles de retard.
-- La mode des « loops » : réalisation d'un compilateur par IA autonome en continu pour 20 000 euros de tokens (janvier 2026).
-::
-
-::Card
-<div class="arg-head">
-  <span class="arg-title">Aucune considération pour le ratio efficacité/coût</span>
-</div>
-
-- On peut facilement lancer 100 agents en parallèle sur la même tâche et 10 agents chargés de sélectionner la meilleure réponse.
+::div{.slide-sources}
+**Sources**
+- (1) OpenAI — *OpenAI's new economic analysis* (22 juillet 2025) — https://openai.com/global-affairs/new-economic-analysis/
+- GIEC/IPCC — *Climate Change and Land*, Chapitre 5 (2019)
 ::
 
 <style>
-.arg-head {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  margin-bottom: 0.4rem;
-}
-.arg-title {
-  font-size: 1.15rem;
-  font-weight: 700;
-  color: var(--text-strong);
-}
-.slidev-layout .card-md ul { font-size: 0.85rem; }
-.slidev-layout .card-md ul li { margin-bottom: 0.15rem; }
+.slidev-layout .card-md p:last-child { font-size: 0.75rem; }
+.slidev-layout .slide-sources { bottom: 2.25rem; }
+.slidev-layout .stat { padding: 0.5rem 1rem; }
+.slidev-layout .card-left-orange.card-md { padding: 0.6rem 1.25rem; }
+.slidev-layout .card-md p:first-child > strong:only-child { margin-bottom: 0; }
 </style>
